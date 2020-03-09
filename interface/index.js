@@ -57,3 +57,8 @@ alles in hoofdletters moet vervangen worden door dynamische inhoud.
 */
 
 console.log(photoStore);
+console.log(photoStore.getTotalEuroPriceOfAllPhotos());
+console.log(photoStore.applyCurrencyChange());
+console.log(photoStore.applySortBy());
+console.log(photoStore.applyPhotographerFilter());
+console.log(photoStore.applyAll());
