@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Yellow Korner - Werkcollege 2</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <link rel="icon" type="image/png" href="https://www.yellowkorner.com/on/demandware.static/Sites-YKF-Site/-/default/dw3fcd232b/images/favicons/favicon.ico" sizes="32x32" />
+  </head>
+  <body>
+
+    <header>
+      <img
+        src="https://www.yellowkorner.com/on/demandware.static/Sites-YKF-Site/-/default/dw239ee541/images/logo.svg"
+        alt="Yellow Korner logo"
+      >
+    </header>
+    <main>
+      <section>
+        <h2>Sort by</h2>
+        <label><input type="radio" name="sortBy" value="title" checked>Title</label>
+        <label><input type="radio" name="sortBy" value="priceInEuro">Price</label>
+        <h2>Photographer</h2>
+        <div id="photographerRadioWrapper">
+          <label><input type="radio" name="photographer" value="all" checked >All</label>
+          <label><input type="radio" name="photographer" value="Adam Burton">Adam Burton</label>
+          <label><input type="radio" name="photographer" value="Jakub Polomski">Jakub Polomski</label>
+          <label><input type="radio" name="photographer" value="Jorg Dickmann">Jorg Dickmann</label>
+        </div>
+        <h2>Currency</h2>
+        <div id="currencyRadioWrapper">
+          <label><input type="radio" name="currency" value="EURO" checked >€ Euro</label>
+          <label><input type="radio" name="currency" value="DOLLAR">$ Dollar</label>
+          <label><input type="radio" name="currency" value="POUND">£ Pound</label>
+        </div>
+      </section>
+      <section id="content_section">
+      </section>
+    </main>
+    <script type="module" src="./interface/index.js"></script>
+  </body>
+</html>
